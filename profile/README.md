@@ -21,7 +21,7 @@ sudo snap install gitkraken-cli
 winget install gitkraken.cli
 ```
 
-> MacOS specific Note: If you use `oh-my-zsh`, you will need to run `unalias gk`. This command is only temporary when run within a specific tab/console instance. To make it permanent you can add the unalias command to your `.zshrc` config.
+> **MacOS specific Note**: If you use `oh-my-zsh`, you will need to run `unalias gk`. This command is only temporary when run within a specific tab/console instance. To make it permanent you can add the unalias command to your `.zshrc` config.
 
 ### Forking the repos
 
@@ -58,11 +58,21 @@ chmod +x clone.sh
 ./clone.sh johndoe /path/to/target/directory
 ```
 
+> **Security Note**: Always review scripts before executing them directly from the internet. You can download the script first to inspect it before running: `curl -O https://raw.githubusercontent.com/multi-repo-demo/.github/main/clone.sh`
 
 
 ## Do some Work
 
+Make sure you are logged in using `gk auth`. You can start a free trial if you don't already have an account.
+
+You can run the `generate-client.sh` script from the `todo-backend` directory. It expects that you have all 3 repos in the same directory.
+
+```
+- parent directory
+---- todo-backend
+---- todo-frontend-app
+---- todo-ui-components
+```
 
 
-Make some changes to the repos
 
