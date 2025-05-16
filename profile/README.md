@@ -26,8 +26,9 @@ winget install gitkraken.cli
 ### Forking the repos
 
 The repos you will need to fork can be found here:
-- https://github.com/multi-repo-demo/todo-backend 
-- https://github.com/multi-repo-demo/todo-component-library 
+
+- https://github.com/multi-repo-demo/todo-backend
+- https://github.com/multi-repo-demo/todo-component-library
 - https://github.com/multi-repo-demo/todo-frontend-app
 
 If you have the GitHub CLI installed, you can use this wrapping script to automate the forking process.
@@ -60,19 +61,6 @@ chmod +x clone.sh
 
 > **Security Note**: Always review scripts before executing them directly from the internet. You can download the script first to inspect it before running: `curl -O https://raw.githubusercontent.com/multi-repo-demo/.github/main/clone.sh`
 
+## That's it for now!
 
-## Do some Work
-
-Make sure you are logged in using `gk auth`. You can start a free trial if you don't already have an account.
-
-You can run the `generate-client.sh` script from the `todo-backend` directory. It expects that you have all 3 repos in the same directory.
-
-```
-- parent directory
----- todo-backend
----- todo-frontend-app
----- todo-ui-components
-```
-
-
-
+You should be ready to go.
